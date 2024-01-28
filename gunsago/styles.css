@@ -1,0 +1,71 @@
+body {
+  background-color: #9cff2e;
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#tekst-avaleht {
+  text-align: center;
+  color: #FDFF00;
+  font-size: 100px;
+  vertical-align: center;
+  justify-content: center;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  justify-content: center;
+  align-content: center;
+}
+
+iframe {
+  float: right;
+}
+
+ul {
+  top: 0;
+  position: sticky;
+  background-color: #fdff00;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 10%;
+}
+
+#gun-tekst {
+  float: right;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+#omanikud {
+  border-radius: 50%;
+  display: block;
+  padding: 20px;
+}
+
+#teenuspildid {
+  width: 75%;
+  height: 600px;
+}
+
+#avaleht-tekst {
+  display: flex;
+  justify-content: center;
+  align-content: center
+  
+  width: 1200px;
+  height: 711px;
+  max-width: 100%;
+  object-fit: contain;
+  background-image: url("https://api.delfi.ee/media-api-image-cropper/v1/0e0e7bb0-bc5e-11eb-9bf9-9339f221b7f2.jpg?noup&w=1200&h=711&ch=0.8435&cw=1&cx=0&cy=0.0009&r=16:9");
+}
+
+footer {
+  background-color: #2192ff;
+}
